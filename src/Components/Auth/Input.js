@@ -14,6 +14,7 @@ const Input = ({name,half,handleChange,label,autoFocus,type,handleShowPassword})
          label={label}
          autoFocus={autoFocus}
          type={type}
+         style = {{ width: '350px' }}
          InputProps={ name==='password' && {
             endAdornment: (
                 <InputAdornment position='end'>
